@@ -14,10 +14,10 @@ var newName ="Mónica";
     alert("Wrong parameter!");
   }
 
-var allNamesToString = allNames.join(' | ');
+var allNamesToString = allNames.join(' //\\ ');
   console.log(allNamesToString);
   document.write("<br>" + allNamesToString);
-
+// Wiem, że w tym przypadku zmienianie stringa w string nie ma sensu, ale chciałam przećwiczyć tę funkcję dla tablic, cho¢ to masło maślane i rozgraniczyć sobie poszczególne elementy tablicy;).
 var getName = allNames.pop();
   console.log(getName);
   console.log(allNames);
@@ -35,3 +35,11 @@ var allNamesWithoutSergioAndCristobal = allNames.filter(function(name) {
 });
   console.log(allNamesWithoutSergioAndCristobal);
   document.write("<br>" + allNamesWithoutSergioAndCristobal);
+
+var addSurname = allNames.map(function(name) {
+  return name + " López";
+});
+console.log(allNames);
+console.log(addSurname);
+document.write("<br>" + allNames);
+document.write("<br>" + addSurname);
