@@ -12,7 +12,7 @@ var newName ="Mónica";
   else {
     console.log("Wrong parameter!");
     alert("Wrong parameter!");
-  };
+  }
 
 var allNamesToString = allNames.join(' | ');
   console.log(allNamesToString);
