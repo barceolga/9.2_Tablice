@@ -7,14 +7,14 @@ var newName ="Mónica";
 
   if (allNames.indexOf(newName) === -1) {
     console.log(allNames.push(newName));
-    document.write("<br>" + allNames.push(newName));
+    document.write("<br>" + allNames);
   }
   else {
     console.log("Wrong parameter!");
     alert("Wrong parameter!");
   }
 
-var allNamesToString = allNames.join(' //\\ ');
+var allNamesToString = allNames.join(' /\\ ');
   console.log(allNamesToString);
   document.write("<br>" + allNamesToString);
 // Wiem, że w tym przypadku zmienianie stringa w string nie ma sensu, ale chciałam przećwiczyć tę funkcję dla tablic, cho¢ to masło maślane i rozgraniczyć sobie poszczególne elementy tablicy;).
